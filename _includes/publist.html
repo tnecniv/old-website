@@ -1,0 +1,53 @@
+{% assign pubs = site.data.pubs | sort: "year" | reverse | where: "type", include.type %}
+{% for pub in  pubs %}
+    <li class="pubitem">
+        "{{ pub.title }}."
+        <br/>
+        &nbsp
+        {% if pub.authors.size == 1 %}
+            {% if pub.authors[0] == site.myname %}
+                <span class="authemph">{{ pub.authors[0] }}</span>.
+            {% else %}
+                {{ pub.authors[0] }}.
+            {% endif %}
+        {% elsif pub.authors.size == 2 %}
+            {% if pub.authors[0] == site.myname %}
+                <span class="authemph">{{ pub.authors[0] }}</span>
+            {% else %}
+            {{ pub.authors[0] }}
+            {% endif %} and 
+            {% if pub.authors[1] == site.myname %}
+                <span class="authemph">{{ pub.authors[1] }}</span>.
+            {% else %}
+                {{ pub.authors[1] }}.
+            {% endif %}
+        {% else %}
+            {% for author in pub.authors %}
+                {% if forloop.last == true %}
+                    {% if author == site.myname %}
+                        and <span class="authemph">{{ author }}</span>.
+                    {% else %}
+                        and {{ author }}.
+                    {% endif %}
+                {% else %}
+                    {% if author == site.myname %}
+                    <span class="authemph">{{ author }}</span>,
+                    {% else %}
+                        {{ author }},
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        {{ pub.venue }}
+        {% if pub.note %} 
+            {{ pub.year }} ({{ pub.note }}).
+        {% else %}
+            {{ pub.year }}.
+        {% endif %}
+        <span style="float: right;">
+            {% for link in pub.links %}
+                <a href="{{ link[1] }}" class="publist">[{{ link[0] }}]</a>
+            {% endfor %}
+        </span>
+    </li>
+{% endfor %}

@@ -1,0 +1,60 @@
+---
+layout: main
+---
+{% capture focused %}
+    {% include focused.md %}
+{% endcapture %}
+
+{% capture detailed %}
+    {% include detailed.md %}
+{% endcapture %}
+
+{% assign pubcount = site.data.pubs | where: "type", "conference" | size | plus: 1 %}
+
+<div class="container">
+    <div id="title" class="row">Vincent Pacelli</div>
+    <div class="row">
+        <div class="col-md-4">
+            <br/>
+            <img class="photo" src="assets/images/me.jpg">
+        </div>
+        <div class="col-md-7">
+            <br/>
+            <div class="d-flex flex-column align-self-end focused">
+                <div class="mx-4">
+                    {{ focused | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <br/>
+    <div class="row links">
+        <p class="text-center">
+            <a href="mailto:vpacelli@princeton.edu">email</a> | <a href="">curiculum vitæ</a> | <a href="#publist">pub list</a> | <a href="https://scholar.google.com/citations?user=M7Vsg3IAAAAJ&hl=en&authuser=1&oi=ao">scholar</a>
+        </p>
+    </div>
+    <div class="row main-text">
+        <div class="col-md-9">
+        {{ detailed | markdownify}}
+        </div>
+        <div class="col-md-3">
+            <img src="assets/images/ball robot.svg" height="auto" width="1500" />
+        </div>
+    </div>
+    <br/>
+    <div class="row main-text border border-dark">
+        <div class="col-md-12">
+            <h1 id="publist">Publications</h1>
+            <ol class="publist">
+                {% include publist.html type="conference" %}
+            </ol>
+
+            <h1>Talks</h1>
+            <ol class="publist" start="{{ pubcount }}">
+                {% include publist.html type="talk" %}
+            </ol>
+        </div>
+    </div>
+    </br>
+</div>

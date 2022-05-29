@@ -1,0 +1,19 @@
+
+# Current Research
+My research to date has focused on studying the role of **task-relevant information** in control problems and developing controllers that exploit it. 
+
+## Task-Relevancy and Bounded Rationality in Robotics
+
+Bounded rationality is the concept that agents (e.g., humans and robots) only have limited computational and sensing resources available to them, so truely rational decision-making is infesible. Bounded rationality strategies focus on only processing the most relevant information for a given task, leading to efficient and robust decision-making. 
+
+A canonical example is the [gaze heuristic](https://onlinelibrary.wiley.com/doi/full/10.1111/tops.12253), which is a simple feedback law humans employ to catch a ball. Specifically, humans follow a trajectory that keeps the ball at a fixed point in their visual field. This strategy is **[provably correct](https://aapt.scitation.org/doi/abs/10.1119/1.1974297)**, **computationally simple**, and **adapts robustly** to disturbances such as wind gusts or visual background noise as long as the task-relevant information, i.e. the angle between the ball and the eye line, is detectable. The gaze heuristic is a categorically different strategy than the generic recipies for motion planning employed in robotics, where state estimation and model-preditive control are tightly coupled. This method requires **significant computation** to process rich sensor information and the tight coupling of estimation and control **lacks robustness** without rapidly replanning.
+
+My work in this area has focused on algorithmically identifying the (often low-dimensional) task-relevant variables in optimal control problems, designing controllers that depend on these variables only, and demonstrating the performance-robustness tradeoffs of these controllers. These goals are achieved through an approach using overlapping tools from fields such as, **information theory**, **statistical mechanics**, and **differential privacy**.
+
+## Fundamental Performance Limits in Sensing and Control
+
+Some of my recent work has been on understanding **fundamental limits** on the performance achievable by a robot equipped with different sensors on an optimal control problem. The aim is to answer questions such as: does an autonomous car require different sensing modalities, or is a vision system enough? In principle, if both systems capture the relevant information for the task, then performance is not gained by adding more sensors to the vehicle. My work makes early steps toward answering this question by deriving estimatable lower-bounds on control cost in terms of the information a sensor may provide using [generalized versions of Fano's Inequality](https://arxiv.org/pdf/1702.05985.pdf).
+
+# Future Directions
+
+I have a growing interest in the interplay between the field of robotics and the natural sciences. Generally, these fields seek answers to different questions, leading to distinctly motivated problems, unique tools for solving them, and lexical barriers between communities. However, robotics is a nacent field still searching for the proper modeling formulisims and an understanding of the limits of what can be reasonably expected from a robot. In comparison to robotics, the natural sciences excel in these areas, and there is untapped potential in importing useful mathematical formalisms from them into robotics. Occasionally, successful cross-polination has occured, for example [path integral methods](https://iopscience.iop.org/article/10.1088/1742-5468/2005/11/P11011/) methods leading to new optimal control algorithms in robotics, but there is still much work to be done in bridging the gap between robotics and the natural sciences.

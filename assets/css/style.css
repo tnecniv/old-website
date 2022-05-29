@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.focused {
+    font-size: 1.7em;
+    line-height: 145%;
+}
+
+.main-text {
+    font-size: 1.45em;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: bold;
+    text-indent: 0em;
+}
+
+.subheading {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-indent: 0em;
+}
+
+.publist {
+    line-height: 130%;
+}
+
+.links {
+    font-size: 2em;
+}
+
+.pubitem {
+    margin-bottom: 1em;
+}
+
+.authemph {
+    font-weight: bold;
+}
+
+a {
+    color: #005A9C;
+    /* text-decoration: none; */
+}
+
+a.publist {
+    text-decoration: none;
+}
+
+li::marker {
+    content:"[" counter(list-item)"] ";
+}
+
+.photo {
+    width: auto;
+    height: 475px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+
+  h1 {
+      font-weight: bold;
+  }
+
+  h2 {
+      padding-top: 0.5em;
+  }

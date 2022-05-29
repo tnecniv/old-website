@@ -1,0 +1,102 @@
+- name: iros2017
+  title: "Sensory Steering for Sampling-Based Motion Planning"
+  type: conference
+  authors:
+      - O. Arslan
+      - V. Pacelli
+      - D. E. Koditschek
+  venue: IROS
+  year: 2017
+  links:
+    pub: http://www.roboticsproceedings.org/rss16/p101.pdf
+
+- name: icra2018
+  title: "Integration of Local Geometry and Metric Information in Sampling-Based Motion Planning"
+  type: conference
+  authors:
+      - V. Pacelli
+      - O. Arslan
+      - D. E. Koditschek
+  venue: ICRA
+  year: 2018
+  links:
+      pub: https://ieeexplore.ieee.org/abstract/document/8460739/
+
+- name: icra2019
+  title: "Task-Driven Estimation and Control via Information Bottlenecks"
+  type: conference
+  authors:
+      - V. Pacelli
+      - A. Majumdar
+  venue: ICRA
+  year: 2019
+  links:
+      arxiv: https://arxiv.org/abs/1809.07874
+      pub: https://ieeexplore.ieee.org/abstract/document/8794213/
+
+- name: nerc2019
+  title: "Task-Driven Representations for Robot Estimation and Control"
+  type: talk
+  authors:
+    - V. Pacelli
+      A. Majumdar
+  venue: NERC
+  year: 2019
+
+- name: rss2020
+  title: "Learning Task-Driven Control Policies via Information Bottlenecks"
+  type: conference
+  authors:
+      - V. Pacelli
+      - A. Majumdar
+  venue: RSS
+  year: 2020
+  links:
+      arxiv: https://arxiv.org/abs/2002.01428
+      pub: http://www.roboticsproceedings.org/rss16/p101.pdf
+
+- name: aps2021
+  title: "Robust Control for Robots via Minimal-Information Policies"
+  type: talk
+  authors:
+    - V. Pacelli
+    - A. Majumdar
+  venue: APS March Meeting
+  year: 2021
+
+- name: l4dc2021
+  title: "Invariant Policy Optimization: Towards Stronger Generalization in Reinforcement Learning"
+  type: conference
+  authors:
+      - A. Sonar
+      - V. Pacelli
+      - A. Majumdar
+  venue: L4DC
+  year: 2021
+  links:
+      arxiv: https://arxiv.org/abs/2006.01096
+      pub: http://proceedings.mlr.press/v144/sonar21a/sonar21a.pdf
+
+- name: icra2022
+  title: Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy
+  type: conference
+  authors:
+      - V. Pacelli
+      - A. Majumdar
+  venue: ICRA
+  year: 2022
+  note: To Appear
+  links:
+      arxiv: https://arxiv.org/abs/2109.08262
+
+- name: rss2022
+  title: "Fundamental Performance Limits for Sensor-Based Robot Control and Policy Learning"
+  type: conference
+  authors:
+      - A. Majumdar
+      - V. Pacelli
+  venue: RSS
+  year: 2022
+  note: To Appear
+  links:
+      arxiv: https://arxiv.org/abs/2202.00129
