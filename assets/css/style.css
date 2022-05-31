@@ -58,8 +58,8 @@ li::marker {
 }
 
 .photo {
-    width: auto;
-    height: 475px;
+    /* width: 100%; */
+    /* height: 475px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -68,12 +68,12 @@ li::marker {
 .container {
     padding-left: 8em;
     padding-right: 8em;
-  }
+}
 
-  h1 {
-      font-weight: bold;
-  }
+h1 {
+    font-weight: bold;
+}
 
-  h2 {
-      padding-top: 0.5em;
-  }
+h2 {
+    padding-top: 0.5em;
+}
