@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 #title {
@@ -7,8 +8,12 @@ body {
     font-weight: bold;
 }
 
+strong {
+    font-weight: 400;
+}
+
 .focused {
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-height: 145%;
 }
 
@@ -33,7 +38,7 @@ body {
 }
 
 .links {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .pubitem {

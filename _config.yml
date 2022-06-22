@@ -2,7 +2,6 @@ domain: tnecniv.github.io       # if you want to force HTTPS, specify the domain
 url: https://tnecniv.github.io
 lsi: false
 safe: true
-source: https://github.com/tnecniv/tnecniv.github.io
 incremental: false
 highlighter: rouge
 gist:
