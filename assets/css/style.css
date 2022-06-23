@@ -51,10 +51,12 @@ strong {
 
 a {
     color: #005A9C;
+    font-weight: 400;
     /* text-decoration: none; */
 }
 
 a.publist {
+    font-weight: 300;
     text-decoration: none;
 }
 
@@ -82,3 +84,12 @@ h1 {
 h2 {
     padding-top: 0.5em;
 }
+
+hr {
+    border-color: #000000;
+    border-style: solid none;
+    border-width: 1px 0;
+    opacity: 1;
+    margin: 2em 0;
+    color: black;
+  }
