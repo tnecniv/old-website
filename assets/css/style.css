@@ -92,4 +92,12 @@ hr {
     opacity: 1;
     margin: 2em 0;
     color: black;
-  }
+}
+
+.pubtitle {
+    font-weight: 350;
+}
+
+.pubnote {
+    font-weight: 350;
+}

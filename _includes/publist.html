@@ -1,7 +1,7 @@
 {% assign pubs = site.data.pubs | sort: "year" | reverse | where: "type", include.type %}
 {% for pub in  pubs %}
     <li class="pubitem">
-        "{{ pub.title }}."
+        <span class="pubtitle">"{{ pub.title }}."</span>
         <br/>
         &nbsp
         {% if pub.authors.size == 1 %}
@@ -40,7 +40,7 @@
         {% endif %}
         {{ pub.venue }}
         {% if pub.note %} 
-            {{ pub.year }} ({{ pub.note }}).
+            {{ pub.year }} <span class="pubnote">({{ pub.note }})</span>.
         {% else %}
             {{ pub.year }}.
         {% endif %}

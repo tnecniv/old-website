@@ -2,7 +2,7 @@
 # Current Research
 My research to date has focused on studying the role of **task-relevant information** in control problems and developing controllers that exploit it. 
 
-## Task-Relevancy and Bounded Rationality in Robotics
+## Task-Relevancy and Bounded Rationality Robots
 
 Bounded rationality is the concept that agents (e.g., humans and robots) only have limited computational and sensing resources available to them, so truely rational decision-making is infesible. Bounded rationality strategies focus on only processing the most relevant information for a given task, leading to efficient and robust decision-making. 
 
@@ -10,7 +10,7 @@ A canonical example is the [gaze heuristic](https://onlinelibrary.wiley.com/doi/
 
 My work in this area has focused on algorithmically identifying the (often low-dimensional) task-relevant variables in optimal control problems, designing controllers that depend on these variables only, and demonstrating the performance-robustness tradeoffs of these controllers. These goals are achieved through an approach using overlapping tools from fields such as, **information theory**, **statistical mechanics**, and **differential privacy**.
 
-## Fundamental Performance Limits in Sensing and Control
+## Fundamental Limits in Robotics
 
 Some of my recent work has been on understanding **fundamental limits** on the performance achievable by a robot equipped with different sensors on an optimal control problem. The aim is to answer questions such as: does an autonomous car require different sensing modalities, or is a vision system enough? In principle, if both systems capture the relevant information for the task, then performance is not gained by adding more sensors to the vehicle. My work makes early steps toward answering this question by deriving estimatable lower-bounds on control cost in terms of the information a sensor may provide using [generalized versions of Fano's Inequality](https://arxiv.org/pdf/1702.05985.pdf).
 
