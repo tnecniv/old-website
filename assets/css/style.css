@@ -1,20 +1,22 @@
 body {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-family: 'Bitter', serif;
 }
 
 #title {
     font-size: 4em;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 strong {
     font-weight: 400;
 }
 
-.focused {
-    font-size: 1.6em;
+.focused-text {
+    font-size: 20pt;
     line-height: 145%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-text {
@@ -38,7 +40,8 @@ strong {
 }
 
 .menu-links {
-    font-size: 1.4em;
+    font-size: 20pt;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a.menu-links {
@@ -62,6 +65,7 @@ a {
 a.publist {
     font-weight: 350;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li::marker {
@@ -83,10 +87,12 @@ li::marker {
 
 h1 {
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
     padding-top: 0.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -94,7 +100,7 @@ hr {
     border-style: solid none;
     border-width: 1px 0;
     opacity: 1;
-    margin: 2em 0;
+    margin: 42pt 0;
     color: black;
 }
 
