@@ -37,8 +37,12 @@ strong {
     line-height: 130%;
 }
 
-.links {
-    font-size: 1.6em;
+.menu-links {
+    font-size: 1.4em;
+}
+
+a.menu-links {
+    font-weight: 325;
 }
 
 .pubitem {
@@ -56,7 +60,7 @@ a {
 }
 
 a.publist {
-    font-weight: 300;
+    font-weight: 350;
     text-decoration: none;
 }
 
@@ -96,6 +100,7 @@ hr {
 
 .pubtitle {
     font-weight: 350;
+    font-size: 1.05em;
 }
 
 .pubnote {
