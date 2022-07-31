@@ -88,6 +88,7 @@
   note: To Appear
   links:
       arxiv: https://arxiv.org/abs/2109.08262
+      pub: https://ieeexplore.ieee.org/abstract/document/9811557/
 
 - name: rss2022
   title: "Fundamental Performance Limits for Sensor-Based Robot Control and Policy Learning"
