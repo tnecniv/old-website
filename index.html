@@ -12,44 +12,52 @@ layout: main
 {% assign pubcount = site.data.pubs | where: "type", "conference" | size | plus: 1 %}
 
 <div class="container">
-    <div id="title" class="row">Vincent Pacelli</div>
     <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11" id="title">Vincent Pacelli</div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1"></div>
         <div class="col-lg-4">
             <br/>
             <img class="img-fluid rounded photo" src="assets/images/me.jpg">
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-4 d-flex flex-column focused-text">
             <br/>
-            <div class="row">
-                <div class="col-lg-10">
-                    <div class="d-flex flex-column align-self-end focused-text">
-                        <div class="mx-2">
-                            {{ focused | markdownify }}
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 menu-links text-left border-start border-dark border-2 d-flex flex-column justify-content-between">
-                    <a href="mailto:vpacelli@princeton.edu" class="menu-links">email</a>
-                    <a href="assets/docs/cv.pdf" class="menu-links">curiculum vitæ</a>
-                    <a href="#publist" class="menu-links">publications</a>
-                    <a href="https://scholar.google.com/citations?user=M7Vsg3IAAAAJ" class="menu-links">scholar</a>
-                    <a href="https://orcid.org/0000-0002-3757-7538" class="menu-links">orcid</a>
-                </div>
+            <div class="">
+                {{ focused | markdownify }}
             </div>
         </div>
+        <div class="col-lg-2 text-left d-flex flex-column justify-content-between">
+            <div class="menu-links border-start border-dark border-2">
+                <div class="menu-links first-menu-link"><a href="mailto:vpacelli@princeton.edu" class="menu-links">email</a></div>
+                <div class="menu-links"><a href="assets/docs/cv.pdf" class="menu-links">curiculum vitæ</a></div>
+                <div class="menu-links"><a href="#publist" class="menu-links">publications</a></div>
+                <div class="menu-links"><a href="https://scholar.google.com/citations?user=M7Vsg3IAAAAJ" class="menu-links">scholar</a></div>
+                <div class="menu-links"><a href="https://orcid.org/0000-0002-3757-7538" class="menu-links">orcid</a></div>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
     </div>
     <br/>
-    <div class="row main-text">
-        <div class="col-lg-9">
-        {{ detailed | markdownify}}
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11">
+            <div class="main-text">
+                {{ detailed | markdownify}}
+            </div>
         </div>
-        <div class="col-lg-3">
-            <!-- <img src="assets/images/ball robot.svg" height="auto" width="1500" /> -->
-        </div>
+        <!-- <div class="col-lg-3">
+            <img src="assets/images/ball robot.svg" height="auto" width="1500" />
+        </div> -->
     </div>
     <hr/>
     <div class="row main-text">
-        <div class="col-lg-12">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11">
             <h1 id="publist">Publications</h1>
             <ol class="publist">
                 {% include publist.html type="conference" %}

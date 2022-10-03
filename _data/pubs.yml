@@ -1,6 +1,7 @@
 - name: iros2017
   title: "Sensory Steering for Sampling-Based Motion Planning"
   type: conference
+  shortname: Arslan17
   authors:
       - O. Arslan
       - V. Pacelli
@@ -13,6 +14,7 @@
 - name: icra2018
   title: "Integration of Local Geometry and Metric Information in Sampling-Based Motion Planning"
   type: conference
+  shortname: Pacelli18
   authors:
       - V. Pacelli
       - O. Arslan
@@ -25,6 +27,7 @@
 - name: icra2019
   title: "Task-Driven Estimation and Control via Information Bottlenecks"
   type: conference
+  shortname: Pacelli19a
   authors:
       - V. Pacelli
       - A. Majumdar
@@ -37,6 +40,7 @@
 - name: nerc2019
   title: "Task-Driven Representations for Robot Estimation and Control"
   type: talk
+  shortname: Pacelli19b
   authors:
     - V. Pacelli
     - A. Majumdar
@@ -46,6 +50,7 @@
 - name: rss2020
   title: "Learning Task-Driven Control Policies via Information Bottlenecks"
   type: conference
+  shortname: Pacelli20
   authors:
       - V. Pacelli
       - A. Majumdar
@@ -58,6 +63,7 @@
 - name: aps2021
   title: "Robust Control for Robots via Minimal-Information Policies"
   type: talk
+  shortname: Pacelli21a
   authors:
     - V. Pacelli
     - A. Majumdar
@@ -67,6 +73,7 @@
 - name: l4dc2021
   title: "Invariant Policy Optimization: Towards Stronger Generalization in Reinforcement Learning"
   type: conference
+  shortname: Pacelli21b
   authors:
       - A. Sonar
       - V. Pacelli
@@ -80,6 +87,7 @@
 - name: icra2022
   title: Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy
   type: conference
+  shortname: Pacelli22
   authors:
       - V. Pacelli
       - A. Majumdar
@@ -92,6 +100,7 @@
 - name: rss2022
   title: "Fundamental Performance Limits for Sensor-Based Robot Control and Policy Learning"
   type: conference
+  shortname: Majumdar22
   authors:
       - A. Majumdar
       - V. Pacelli
