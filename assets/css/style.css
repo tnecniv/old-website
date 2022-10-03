@@ -113,8 +113,9 @@ hr {
     border-style: solid none;
     border-width: 1px 0;
     opacity: 1;
-    margin: 42pt 0;
+    margin: 32pt auto;
     color: black;
+    max-width: 80%;
 }
 
 .pubtitle {
