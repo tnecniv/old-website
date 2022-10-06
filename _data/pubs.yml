@@ -87,7 +87,7 @@
 - name: icra2022
   title: Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy
   type: conference
-  shortname: Pacelli22
+  shortname: Pacelli22a
   authors:
       - V. Pacelli
       - A. Majumdar
@@ -109,3 +109,15 @@
   links:
       arxiv: https://arxiv.org/abs/2202.00129
       pub: http://www.roboticsproceedings.org/rss18/p036.pdf
+
+
+- name: ijrr2022
+  title: Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy (Extension)
+  type: conference
+  shortname: Pacelli22b
+  authors:
+      - V. Pacelli
+      - A. Majumdar
+  venue: IJRR
+  year: 2022
+  note: In Preparation
