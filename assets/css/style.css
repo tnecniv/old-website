@@ -39,7 +39,7 @@ strong {
 .publist {
     line-height: 130%;
     font-size: 16pt;
-    max-width: 80%;
+    max-width: 85%;
 }
 
 div.first-menu-link {
@@ -116,7 +116,7 @@ hr {
     opacity: 1;
     margin: 32pt auto;
     color: black;
-    max-width: 80%;
+    margin-left: 0;
 }
 
 .pubtitle {
