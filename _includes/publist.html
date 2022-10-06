@@ -1,7 +1,7 @@
 {% assign pubs = site.data.pubs | sort: "year" | reverse | where: "type", include.type %}
 {% for pub in  pubs %}
     <li id="{{ pub.shortname }}" class="pubitem">
-        <span class="pubtitle">"{{ pub.title }}."</span>
+        <span class="pubtitle">{{ pub.title }}.</span>
         <br/>
         <span class="pub-details">
             {% if pub.authors.size == 1 %}
