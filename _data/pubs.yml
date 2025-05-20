@@ -158,3 +158,19 @@
   links:
 #    arxiv: https://arxiv.org/abs/2410.14055
     pub: https://openreview.net/forum?id=k3tbMMW8rH
+
+- name: cdc2025
+  title: "Operator Splitting Covariance Steering for Safe Stochastic Nonlinear Control"
+  type: conference
+  shortname: Saravanos25
+  authors:
+      - A. Ratheesh
+      - V. Pacelli
+      - A.D. Saravanos
+      - E. Theodorou
+  venue: CDC
+  year: 2025
+  note: Under Review
+  links:
+    arxiv: https://arxiv.org/abs/2410.14055
+    pub: https://openreview.net/forum?id=k3tbMMW8rH
