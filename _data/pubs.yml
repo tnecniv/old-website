@@ -5,7 +5,7 @@
   authors:
       - O. Arslan
       - V. Pacelli
-      - D. E. Koditschek
+      - D.E. Koditschek
   venue: IROS
   year: 2017
   links:
@@ -18,7 +18,7 @@
   authors:
       - V. Pacelli
       - O. Arslan
-      - D. E. Koditschek
+      - D.E. Koditschek
   venue: ICRA
   year: 2018
   links:
@@ -34,7 +34,7 @@
   venue: ICRA
   year: 2019
   links:
-      arxiv: https://arxiv.org/abs/1809.07874
+#      arxiv: https://arxiv.org/abs/1809.07874
       pub: https://ieeexplore.ieee.org/abstract/document/8794213/
 
 - name: nerc2019
@@ -57,7 +57,7 @@
   venue: RSS
   year: 2020
   links:
-      arxiv: https://arxiv.org/abs/2002.01428
+#      arxiv: https://arxiv.org/abs/2002.01428
       pub: http://www.roboticsproceedings.org/rss16/p101.pdf
 
 - name: aps2021
@@ -81,7 +81,7 @@
   venue: L4DC
   year: 2021
   links:
-      arxiv: https://arxiv.org/abs/2006.01096
+#      arxiv: https://arxiv.org/abs/2006.01096
       pub: http://proceedings.mlr.press/v144/sonar21a/sonar21a.pdf
 
 - name: icra2022
@@ -94,7 +94,7 @@
   venue: ICRA
   year: 2022
   links:
-      arxiv: https://arxiv.org/abs/2109.08262
+#      arxiv: https://arxiv.org/abs/2109.08262
       pub: https://ieeexplore.ieee.org/abstract/document/9811557/
 
 - name: rss2022
@@ -107,19 +107,54 @@
   venue: RSS
   year: 2022
   links:
-      arxiv: https://arxiv.org/abs/2202.00129v2
+#      arxiv: https://arxiv.org/abs/2202.00129v2
       pub: http://www.roboticsproceedings.org/rss18/p036.pdf
 
-
 - name: ijrr2023
-  title: "Fundamental Limits for Sensor-Based Robot Control"
+  title: "Fundamental limits for sensor-based robot control"
   type: conference
   shortname: Pacelli23
   authors:
-      - V. Pacelli
       - A. Majumdar
+      - Z. Mei
+      - V. Pacelli
   venue: IJRR
   year: 2023
-  note: "Under Review"
   links:
-    arxiv: https://arxiv.org/abs/2202.00129v4
+#    arxiv: https://arxiv.org/abs/2202.00129v4
+    pub: https://journals.sagepub.com/doi/full/10.1177/02783649231190947
+
+- name: iclr2025a
+  title: "Feedback Schrödinger Bridge Matching"
+  type: conference
+  shortname: Theodoropoulos25
+  authors:
+      - P. Theodoropoulos
+      - N. Komianos
+      - V. Pacelli
+      - G-H. Liu
+      - E. Theodorou
+  venue: ICLR
+  year: 2025
+  links:
+#    arxiv: https://arxiv.org/abs/2410.14055
+    pub: https://openreview.net/forum?id=k3tbMMW8rH
+
+
+- name: iclr2025b
+  title: "Deep Distributed Optimization for Large-Scale Quadratic Programming"
+  type: conference
+  shortname: Saravanos25
+  authors:
+      - A.D. Saravanos
+      - H. Kuperman
+      - V. Pacelli
+      - A. Oshin
+      - A.T. Abdul
+      - V. Pacelli
+      - E. Theodorou
+  venue: ICLR
+  year: 2025
+  links:
+#    arxiv: https://arxiv.org/abs/2410.14055
+    pub: https://openreview.net/forum?id=k3tbMMW8rH
