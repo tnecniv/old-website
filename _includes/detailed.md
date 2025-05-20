@@ -11,7 +11,7 @@ Thus far, I have worked on how using feedback control can be used to improve SBM
 
 Presently, I am working on formalizing the benefits using **PAC-Bayes control methods** as well as how these methods can be used beyond popular applications, like image generation and transformation, to learn **models of physical systems** from data. Usecases include **imitation learning** and **AI-for-science** applications.
 
-## Certifying and Improving the Performance of Deep Unfolded Optimizers
+## Certifying the Performance of Deep Unfolded Algorithms
 
 A **deep unfolded algorithm** is a kind of neural network that replaces the nonlinearities commonly found in the deep learning literature with a parameterized step of an algorithm. A simple example is gradient descent: the gradient of an objective function provides a nonlinearity and the stepsize provides a parameter to be learned. Subsequently, optimization methods and other iterative algorithms can be fine-tuned using data generated from tasks of interest, such as model-predictive control problems for a robot. 
 
