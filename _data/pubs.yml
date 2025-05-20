@@ -107,17 +107,19 @@
   venue: RSS
   year: 2022
   links:
-      arxiv: https://arxiv.org/abs/2202.00129
+      arxiv: https://arxiv.org/abs/2202.00129v2
       pub: http://www.roboticsproceedings.org/rss18/p036.pdf
 
 
-- name: ijrr2022
-  title: Robust Control Under Uncertainty via Bounded Rationality and Differential Privacy (Extension)
+- name: ijrr2023
+  title: "Fundamental Limits for Sensor-Based Robot Control"
   type: conference
-  shortname: Pacelli22b
+  shortname: Pacelli23
   authors:
       - V. Pacelli
       - A. Majumdar
   venue: IJRR
-  year: 2022
-  note: In Preparation
+  year: 2023
+  note: "Under Review"
+  links:
+    arxiv: https://arxiv.org/abs/2202.00129v4
